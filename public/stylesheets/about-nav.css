@@ -1,0 +1,59 @@
+/*About Nav CSS Document*/
+/*Navigation =================================================================*/
+.navbar-container {
+    padding-top: 3rem;
+    font-weight: 300;
+    color: black;
+
+}
+
+.navbar-default {
+    border-radius: 0;
+    border: 0;
+    background:rgba(255,255,255,0.0);
+}
+
+.navbar-default .navbar-brand {
+    font-size: 300%;
+    color: black;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: black;
+    background-color: rgba(255,255,255,0.0);
+    border-bottom: 3px solid #00a2ff;
+    padding-bottom: 1rem;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: black;
+    font-size: 200%;
+    -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  /* ...and now for the proper property */
+  transition:.5s;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #00a2ff;
+    font-size: 200%;
+    -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  /* ...and now for the proper property */
+  transition:.5s;
+}
+
+.navbar-default .navbar-nav>li>a:active {
+    color: #00a2ff;
+    font-size: 200%;
+    -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  /* ...and now for the proper property */
+  transition:.5s;
+}
