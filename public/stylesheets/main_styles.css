@@ -2,7 +2,6 @@
 /*Fonts ===================================================================== */
 html, body {
     height: 100%;
-    font-family: 'Ubuntu', sans-serif;
 }
 
 .navbar-brand {
@@ -19,6 +18,50 @@ fieldset {
 
 .email {
 	padding-bottom: 1rem;
+}
+
+/*Services ==========================================================*/
+#services {
+    padding: 50px 0px;
+}
+
+#services h1 {
+    padding-bottom: 20px;
+}
+
+
+#service1 {
+    padding: 50px 0px;
+    background-color: #00a2ff;
+    margin: 0px;
+    color: white;
+}
+
+#service1 h2 {
+    color: white;
+}
+
+
+#service2 {
+    padding: 50px 0px;
+    background-color: #0d6aad;
+    margin: 0px;
+    color: white;
+
+}
+
+#service2 h2 {
+    color: white;
+}
+
+#service3 {
+    padding: 50px 0px;
+    margin: 0px;
+
+}
+
+.parallax-window {
+    margin-top: 0px;
 }
 
 /*Footer =====================================================================*/
